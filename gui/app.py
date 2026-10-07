@@ -74,7 +74,7 @@ class GraphicsApp:
         ttk.Button(buttons, text="GAMBAR", style="Primary.TButton", command=self.draw).pack(fill="x", pady=3)
         ttk.Button(buttons, text="RESET", command=self.reset).pack(fill="x", pady=3)
 
-        info_frame = ttk.LabelFrame(self.control, text="Informasi", style="Panel.TLabelframe", padding=10)
+        info_frame = ttk.LabelFrame(self.control, text="Information", style="Panel.TLabelframe", padding=10)
         info_frame.pack(fill="both", expand=True)
         self.info = tk.Text(info_frame, width=30, height=10, bg="#f8fafc", fg="#263746", relief="flat", font=("Consolas", 9), wrap="word")
         self.info.pack(fill="both", expand=True)
